@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;700&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;700&family=Montserrat:wght@100;600&family=Space+Mono&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.header{
+    width: 133px;
+    height: 25px;
+    margin:40px 0 0 77px;
+}
+
+.header p{
+
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 25px;
+    color: #333333;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 77px;
+    flex-direction: row;
+
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.row img{
+    max-width: 539px;
+}
+
+.hContent{
+    width: 586px;
+    height: 190px;
+    margin: 0 0 36px 0;
+}
+
+.hContent h1{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+.pContent{
+    width: 381px;
+    height: 108px;
+    margin: 0 0 64px 0;
+}
+
+.pContent p{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.fContent button{
+    Width :216px;
+    Height :68px;
+    background: #333333;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.fContent button:hover {
+    border-color:#333333;
+    background-color: transparent;
+    transition: ease-out 0.2s;
+    color: #333;
+}
+
+.footer{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.copyWrite{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    color: #333333;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 700px) {
+    body {
+        background-color: #F09A9D; /* Red */
+    }
+
+    .row img {
+        margin: 0 0 0 44px;
+    }
+    .header{
+        margin:40px 0 0 26px;
+    }
+
+    .container{
+        max-width: 620px;
+        margin: 0 26px;
+    }
+
+    .content{
+        margin: 25px auto;
+        flex-direction: column;
+    }
+
+
+    .hContent{
+        width: 350px;
+        height: 142px;
+        margin: 77px 0 0 0;
+    }
+
+    .hContent h1{
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+    }
+
+    .pContent{
+        width: 328px;
+        height: 81px;
+        margin: 30px 0 0 0;
+    }
+
+    .pContent p{
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+    }
+
+
+    .fContent{
+       margin: 66px 0 0 0 ;
+    }
+
+
+}
